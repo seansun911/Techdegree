@@ -1,0 +1,172 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/* UNIVERSAL SELECTOR */
+
+* {
+    box-sizing: border-box;
+}
+/* LISTS DECORATIONS */
+body {
+    font-family: "Oswald", sans-serif;
+}
+/* NAVIGATION */
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li a {
+    background-color: white;
+    display: block;
+    margin: 0px 10px 5px 10px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+nav {
+    margin-bottom: 10px;
+}
+/* IMAGES */
+img {
+    width: 100%;
+}
+.profile-pic {
+    width: 50%;
+}
+header, footer {
+    background-color: lightgrey;
+}
+header, main, footer {
+    text-align: center;
+    margin: 0 auto;
+}
+/* PSEUDO CLASSES */
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+    background-color: lightblue;
+}
+footer {
+    margin: 15px;
+}
+.contact-details {
+    font-weight: bold;
+}
+
+#contact {
+    padding: 5px;
+}
+#name {
+    float: left;
+}
+
+footer nav  {
+    display: none;
+}
+
+#back-to-top {
+    float: right;
+}
+
+.footer-subsec {
+    border-top: solid 1px white;
+}
+
+/* CLEAR FLOATS */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* TABLET SCREEENS */
+@media(min-width:768px) {
+    
+    nav ul li {
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    
+    nav ul li a {
+        padding: 10px 0;
+        margin: 0px;
+        background-color: lightgray;
+    }
+    .profile-pic {
+        float: right;
+        height: 100%;
+        margin: 0px 20px 60px 20px;
+    }
+    #top p {
+        margin-top: 10%;
+    }
+    .content-1,
+    .content-2,
+    .content-3,
+    .content-4,
+    .content-5,
+    .content-6 {
+        padding-right: 5px;
+    }  
+    .content-1,
+    .content-3,
+    .content-5 {
+        float: left;
+        width: 50%;
+    }
+    .content-2,
+    .content-4,
+    .content-6 {
+        float: right;
+        width: 50%;
+    }
+    
+    footer #back-to-top {
+        display: none;
+    }
+    footer nav {
+        display: contents;
+    }
+    footer nav ul {
+        float: right;
+    }
+}
+/* DESKTOP SCREENS */
+@media(min-width:1024px) {
+    .name-heading {
+        float: left;
+    }
+    nav ul {
+        float: right;
+    }
+    header {
+        clear: both;
+    }
+    nav ul li {
+        float: left;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    nav ul li a {
+        padding: 10px 0;
+        margin: 0px;
+        background-color: lightgray;
+    }
+    
+    .content-1,
+    .content-2,
+    .content-3 {
+        float: left;
+        width: 33%;
+    }
+    .content-4,
+    .content-5,
+    .content-6 {
+        float: left;
+        width: 33%;
+    }
+}
