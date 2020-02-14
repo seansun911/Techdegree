@@ -27,6 +27,14 @@ nav ul li a {
 nav {
     margin-bottom: 10px;
 }
+
+section {
+    padding: 10px;
+}
+
+section img {
+    padding: 10px;
+}
 /* IMAGES */
 img {
     width: 100%;
