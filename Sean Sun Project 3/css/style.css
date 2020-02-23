@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body, header, main, footer, form, fieldset {
+    font-family: 'Merriweather';
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+h1 {
+    color: white;
+    background-color: darkslategray;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+}
+
+header p {
+    margin-top: 0;
+    color:darkslategrey;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+main, footer {
+    width: 90%;
+}
+
+main {
+    border-top: solid 3px black;
+}
+form {
+    margin-top: 2px;
+    border-top: solid 3px grey;
+    width: 100%;
+    justify-content: space-between;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+input, textarea, select {
+    background-color: lightgray;
+    width: 100%;
+    padding: 10px 0;
+}
+
+textarea {
+    padding: 25px 0;
+    margin: 20px 0;
+}
+.contact {
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.sel {
+    padding: 10px 0;
+}
+.sel input{
+    display: inline-block;
+    float: left;
+    width: 15px;
+} 
+.sel label {
+    margin-left: 50px;
+}
+button {
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    color:dimgrey;
+}
+input:focus,
+textarea:focus {
+    border-bottom-color: aqua;
+}
+
+input[placeholder="Required"]::placeholder,
+input[placeholder="Required"]::placeholder
+{
+  text-align: right;
+  color: grey;
+  font-style: italic;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    main, footer {
+        max-width: 650px;
+    }
+    .contact {
+        display: table;
+        width: 100%;
+    }
+    .contact label {
+        float: left;
+        width: 30%;
+    }
+    
+    .contact input, select {
+        display: block;
+        width: 67%;
+        margin-bottom: 10px;
+    }
+    
+   
+}
