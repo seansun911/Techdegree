@@ -101,7 +101,6 @@ textarea:focus {
     transition-duration: .3s;
 }
 
-input[placeholder="Required"]::placeholder,
 input[placeholder="Required"]::placeholder
 {
   text-align: right;
