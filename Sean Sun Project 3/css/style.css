@@ -1,8 +1,10 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
 * {
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 body, header, main, footer, form, fieldset {
     font-family: 'Merriweather';
@@ -56,6 +58,7 @@ legend {
     font-weight: bold;
     font-size: 1.2em;
     padding-top: 10px;
+    margin-bottom: 15px;
 }
 
 input, textarea, select {
@@ -76,7 +79,9 @@ textarea {
 .contact label {
     margin-bottom: 5px;
 }
-
+.newsletter label {
+    margin-bottom: 10px;
+}
 .sel {
     padding: 10px 0;
 }
