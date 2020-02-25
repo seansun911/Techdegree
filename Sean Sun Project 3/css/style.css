@@ -65,7 +65,11 @@ textarea {
 .contact label {
     margin-bottom: 5px;
 }
+.newsletter {
+    background-color: azure;
+}
 .newsletter label {
+    padding-top: 5px;
     margin-bottom: 10px;
 }
 .sel {
@@ -93,7 +97,8 @@ footer {
 }
 input:focus,
 textarea:focus {
-    border-bottom-color: aqua;
+    border-bottom-color: lightseagreen;
+    transition-duration: .3s;
 }
 
 input[placeholder="Required"]::placeholder,
