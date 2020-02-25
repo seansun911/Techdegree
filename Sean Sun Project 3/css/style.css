@@ -1,18 +1,13 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
-
 * {
     box-sizing: border-box;
 }
-
 body, header, main, footer, form, fieldset {
     font-family: 'Merriweather';
     display: flex;
     flex-direction: column;
     margin: auto;
 }
-
 
 h1 {
     color: white;
@@ -21,12 +16,10 @@ h1 {
     text-align: center;
     margin-top: 0;
 }
-
 header {
     text-align: center;
     margin: 0;
 }
-
 header p {
     margin-top: 0;
     color:darkslategrey;
@@ -34,11 +27,9 @@ header p {
     margin: 0 auto;
     padding-bottom: 10px;
 }
-
 main, footer {
     width: 90%;
 }
-
 main {
     border-top: solid 3px black;
 }
@@ -48,25 +39,21 @@ form {
     width: 100%;
     justify-content: space-between;
 }
-
 fieldset {
     width: 100%;
     border: none;
 }
-
 legend {
     font-weight: bold;
     font-size: 1.2em;
     padding-top: 10px;
     margin-bottom: 15px;
 }
-
 input, textarea, select {
     background-color: lightgray;
     width: 100%;
     padding: 10px 0;
 }
-
 textarea {
     padding: 25px 0;
     margin: 20px 0;
@@ -75,7 +62,6 @@ textarea {
     border-bottom: 3px solid black;
     margin-bottom: 10px;
 }
-
 .contact label {
     margin-bottom: 5px;
 }
@@ -101,7 +87,6 @@ button {
     margin: auto;
     padding: 20px 0;
 }
-
 footer {
     text-align: center;
     color:dimgrey;
@@ -119,7 +104,6 @@ input[placeholder="Required"]::placeholder
   font-style: italic;
   padding-right: 15px;
 }
-
 @media (min-width: 768px) {
     main, footer {
         max-width: 650px;
@@ -132,12 +116,9 @@ input[placeholder="Required"]::placeholder
         float: left;
         width: 30%;
     }
-    
     .contact input, select {
         display: block;
         width: 67%;
         margin-bottom: 10px;
     }
-    
-   
 }
